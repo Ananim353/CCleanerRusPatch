@@ -1,5 +1,8 @@
 # CCleanerRusPatch
-A small script that disables the blocking of the Russian region in the CCleaner.
+Небольшой скрипт, отключающий блокировку российского региона в CCleaner.
 
-WARNING!  
-Attempt to update will roll back the CCleaner unblocking actions
+Собранный проект, представленный в релизах, вызывает **ложные срабатывание Антивирусного ПО**.  
+Это связано с тем что скрипт напрямую взаимодействует с реестром (что свойственно многим вирусам)
+
+ВНИМАНИЕ!  
+Попытка обновления приведет к отмене действий по разблокировке CCleaner.
